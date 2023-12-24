@@ -1,0 +1,17 @@
+**rules
+    url path /
+    Pattern .*
+    Input       Match
+    {REQUEST_FILENAME}  Is Not a File 
+    {REQUEST_FILENAME}  Is Not a Directory
+
+
+**Application Pools
+    .Net CLR Version    No Managed Code
+    Managed Pipelines   Integrated
+    
+
+
+testtordoonlineapp
+prueba de app
+sds
